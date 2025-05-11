@@ -1,0 +1,44 @@
+.todo {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+}
+.input {
+  border: none;
+  width: 100%;
+  color: black;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7ca18;
+  padding: 12px;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.context > * {
+  display: flex;
+}
+.todoList {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 18px;
+  list-style-type: disc;
+}
