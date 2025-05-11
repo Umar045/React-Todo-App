@@ -1,12 +1,59 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo application built using React.
 
-Currently, two official plugins are available:
+## Author
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **M. Umar Farooq**
+* Email: [m.umarfarooq0045@gmail.com](mailto:m.umarfarooq0045@gmail.com)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Add, update, and delete todos
+* Mark todos as completed
+* Sort todos by completion status
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd todo-app
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+## Running the Application
+
+To run the application in development mode:
+
+```bash
+npm start
+```
+
+The app will be available at [http://localhost:3000](http://localhost:3000).
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The build output will be in the `build` folder.
+
+## Additional Notes
+
+* Ensure Node.js and npm are installed on your system.
+* Customize environment variables if needed.
