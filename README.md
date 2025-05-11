@@ -18,7 +18,7 @@ A simple Todo application built using React.
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/Umar045/React-Todo-App>
 ```
 
 2. Navigate to the project directory:
